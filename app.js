@@ -1,3 +1,3 @@
-alert("hello")
-var name=("Danish")
-console.log (name)
+alert("hello");
+var name = "Danish";
+console.log(name);
