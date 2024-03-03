@@ -109,3 +109,19 @@ document.write ("Total currency in PKR: " + totalCurrencyInPkr + "<br>" )
 
 
 // Q.10
+var num = 5 
+num = (num + 5) * 10 / 2 
+
+
+document.write("result: " + num)
+
+// Q.11 
+var currentYear = 2024
+var birthYear = 2005
+var yourAge = currentYear - birthYear
+// alert (yourAge)
+
+document.write("<h1> Age Calculator </h1>" + "<br>" + "<br>")
+document.write("Cuurent Year: " + currentYear + "<br>")
+document.write("Birth Year: " + birthYear + "<br>")
+document.write("Your Age: " + yourAge + "<br>")
