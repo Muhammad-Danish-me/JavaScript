@@ -125,3 +125,17 @@ document.write("<h1> Age Calculator </h1>" + "<br>" + "<br>")
 document.write("Cuurent Year: " + currentYear + "<br>")
 document.write("Birth Year: " + birthYear + "<br>")
 document.write("Your Age: " + yourAge + "<br>")
+
+// Q.13
+var favoriteSnack = ("chocolate chip")
+var currentAge = 15
+var maximamAge = 65
+var StoreAnEstimatedAmountPerDay = 3
+var totalEat = (maximamAge - currentAge) * StoreAnEstimatedAmountPerDay
+// alert (totalEat) 
+
+document.write("<h1> The Lifetime Supply Calculator: </h1>" + "<br>" + "<br>")
+document.write("favorite Snack: " + favoriteSnack + "<br>")
+document.write(" Current Age: " + currentAge + "<br>")
+document.write(" Maximum Age: " + maximamAge + "<br>")
+document.write("You will Need " + totalEat + " chocolate chip to last you until the ripe old age of "+ maximamAge +"<br>")
