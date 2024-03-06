@@ -38,7 +38,6 @@ if (fuel < 0.25) {
   alert("you have enough fuel");
 }
 
-
 // Q.6
 // var a = 4;
 // if (++a === 5) {
@@ -81,3 +80,18 @@ if (fuel < 0.25) {
 // if ("car" < "cat") {
 //     alert("car is smaller than cat");
 // }
+
+// Q.6
+var sub1 = +prompt("Enter marks of subject 1");
+var sub2 = +prompt("Enter marks of subject 2");
+var sub3 = +prompt("Enter marks of subject 3");
+
+var totalMarks = 300;
+
+var obtainedMarks = sub1 + sub2 + sub3;
+var percentage = obtainedMarks / totalMarks * 100
+
+
+if (percentage <= 80 ){
+
+}
