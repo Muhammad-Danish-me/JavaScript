@@ -1,21 +1,19 @@
 // Q.1
 var cityName = prompt("Enter your city name: ");
-if (cityName === 'karachi' || cityName === 'Karachi') {
-    alert("welcome to city of lights");
+if (cityName === "karachi" || cityName === "Karachi") {
+  alert("welcome to city of lights");
 } else {
-    alert("Welcome to " + cityName);
+  alert("Welcome to " + cityName);
 }
 
 // Q.2
-var gender = prompt("Enter your Gender: ")
-if (gender === "male" ) {
-    alert ("Good Morning Sir")
-}
-else if (gender === "female") {
-    alert ("Good Morning Ma’am")
-}
-else {
-    alert("enter your " + gender)
+var gender = prompt("Enter your Gender: ");
+if (gender === "male") {
+  alert("Good Morning Sir");
+} else if (gender === "female") {
+  alert("Good Morning Ma’am");
+} else {
+  alert("enter your " + gender);
 }
 
 // Q.3
@@ -38,7 +36,7 @@ if (fuel < 0.25) {
   alert("you have enough fuel");
 }
 
-// Q.6
+// Q.5
 // var a = 4;
 // if (++a === 5) {
 //     alert("given condition for variable a is true");
@@ -89,9 +87,63 @@ var sub3 = +prompt("Enter marks of subject 3");
 var totalMarks = 300;
 
 var obtainedMarks = sub1 + sub2 + sub3;
-var percentage = obtainedMarks / totalMarks * 100
+var percentage = (obtainedMarks / totalMarks) * 100;
 
-
-if (percentage <= 80 ){
-
+if (percentage >= 80) {
+  var grade = "A-one";
+  var remarks = "Excellent";
+} else if (percentage >= 70) {
+  var grade = "A";
+  var remarks = "Good";
+} else if (percentage >= 60) {
+  var grade = "B";
+  var remarks = "you need to improve";
+} else if (percentage < 60) {
+  var grade = "Fail";
+  var remarks = "Sorry";
+} else {
+  alert("please enter the correct marks and percentage");
 }
+
+document.write("<h1>MarkSheet</h1>");
+document.write("<br>Total Marks: " + totalMarks);
+document.write("<br>Marks Obtained: " + obtainedMarks);
+document.write("<br>Percentage: " + percentage + "%");
+document.write("<br>Grade: " + grade);
+document.write("<br>Remarks: " + remarks);
+
+// Q.7
+var secretNum = 8;
+var userNum = +prompt("guess the secret number");
+
+if (userNum === secretNum) {
+  alert("correct answer");
+} else if (userNum === secretNum + 1) {
+  alert("Close enough to the correct answer");
+} else {
+  alert("wrong number");
+}
+
+
+// Q.8
+var userInput = +prompt("Enter a number: ");
+if (userInput % 3 === 0) {
+    alert("Number is divisible by 3");
+} else {
+    alert("Number is not divisible by 3");
+}
+
+// Q.9
+var userInput = +prompt("Enter a number")
+if ( userInput % 2 === 0){
+  alert("the number is even")
+} else {
+  alert ("the number is odd")
+}
+
+
+// // Q.10
+// var temperature = +prompt("Enter Temperature with range(0 - 50): ");
+// if (temperature  ){
+
+// }
