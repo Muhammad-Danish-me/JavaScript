@@ -124,26 +124,36 @@ if (userNum === secretNum) {
   alert("wrong number");
 }
 
-
 // Q.8
 var userInput = +prompt("Enter a number: ");
 if (userInput % 3 === 0) {
-    alert("Number is divisible by 3");
+  alert("Number is divisible by 3");
 } else {
-    alert("Number is not divisible by 3");
+  alert("Number is not divisible by 3");
 }
 
 // Q.9
-var userInput = +prompt("Enter a number")
-if ( userInput % 2 === 0){
-  alert("the number is even")
+var userInput = +prompt("Enter a number");
+if (userInput % 2 === 0) {
+  alert("the number is even");
 } else {
-  alert ("the number is odd")
+  alert("the number is odd");
 }
 
+// Q.10
+var temperature = +prompt("Enter Temperature with range(0 - 50): ");
+if (temperature > 40) {
+  alert("It is too hot outside");
 
-// // Q.10
-// var temperature = +prompt("Enter Temperature with range(0 - 50): ");
-// if (temperature  ){
+} else if (temperature > 30) {
+  alert("The Weather today is Normal.");
 
-// }
+} else if (temperature > 20) {
+  alert("Today’s Weather is cool");
+  
+} else if (temperature > 10) {
+  alert("OMG! Today’s weather is so Cool");
+  
+} else {
+  alert("Enter the correct temperature");
+}
