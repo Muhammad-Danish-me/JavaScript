@@ -11,7 +11,7 @@ var studentName = new Array(); // JS object notation
 
 //  Q.3 
 
-var stringArray = ["Abdul","Ammar", "Bilal", "Kashif", "Ali"];
+var stringArray = ["Danish","Robas", "Ahmed", "Kashif", "Ali"];
 
 //  Q.4 
 
