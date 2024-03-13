@@ -23,7 +23,7 @@ var booleanArray = [true, false];
 
 //  Q.6 
 
-var mixedArray = ["Abdul", 1, 44, true, "Ammar", 2, 25, false];
+var mixedArray = ["Danish", 1, 44, true, "Robas", 2, 25, false];
 
 //  Q.7 
 
