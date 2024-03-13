@@ -37,7 +37,7 @@ for( var i = 0 ; i < qualification.length; i++){
 
 //  Q.8 
 
-var studentName = ["Abdul", "Ammar", "Bilal"];
+var studentName = ["Danish", "Robas", "Ahmed"];
 var studentScore = [320, 230, 480];
 var totalMarks = 500;
 
