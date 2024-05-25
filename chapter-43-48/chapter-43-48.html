@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+      #mobiles {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+      }
+      #mobiles img {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Q.1 -->
+    <a onclick="displayAlert()" href="">Click Here</a>
+
+    <!-- Q.2 -->
+    <h1>Mobile Phones</h1>
+    <div id="mobiles">
+      <div>
+        <img
+          width="300px"
+          src="https://regen.pk/cdn/shop/files/REGEN-iPhone11-Backfront-Purple-Pakistan.png?v=1684752662"
+          onclick="showAlert()"
+          alt=""
+        />
+        <center><h3>Iphone 11</h3></center>
+      </div>
+      <div>
+        <img
+          width="300px"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQfq7ZKppj3fi7yPrlqe0E5AsUjihuB204YBawwh3uw&s "
+          onclick="showAlert()"
+        />
+        <center><h3>Iphone 11 Pro</h3></center>
+      </div>
+      <div>
+        <img
+          width="300px"
+          src="https://images.priceoye.pk/apple-iphone-15-pro-max-pakistan-priceoye-v3uz5-500x500.webp"
+          alt=""
+          onclick="showAlert()"
+        />
+        <center><h3>Iphone 15 Pro</h3></center>
+      </div>
+    </div>
+
+    <!-- Q.3 -->
+    <table id="myTable">
+      <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Danish</td>
+        <td>12</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Hammad</td>
+        <td>11</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Robas</td>
+        <td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Aslam</td>
+        <td>7</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </table>
+    <!-- Q.4 -->
+    <h2>Change Image on Mouse Hover</h2>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSui31baHRlQ7kG9Oa_udoomRgONvhdmICdMhZ5U7_40A&s"
+      onmouseover="swapImage('over')"
+      onmouseout="swapImage('out')"
+      alt=""
+    />
+    <script src="chapter-43-48.js"></script>
+  </body>
+</html>
