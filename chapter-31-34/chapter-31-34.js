@@ -86,4 +86,7 @@ if (current_Time < 12 && current_Time >= 0) {
 
 // Q.8
 var laterDate = new Date("31 December 2020");
-console.log("Later Date: " + laterDate)
+// console.log("Later Date: " + laterDate)
+
+
+//Q.9
